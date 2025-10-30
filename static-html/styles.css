@@ -1,0 +1,246 @@
+/* The Literary Corner - Static HTML Styles */
+
+:root {
+    /* Colors matching the React version */
+    --primary: #7d2e4c;        /* Deep burgundy */
+    --secondary: #4a7d5e;      /* Forest green */
+    --accent: #d4a02d;         /* Gold */
+    --background: #faf8f4;     /* Warm cream */
+    --foreground: #3a3c48;     /* Charcoal */
+    --border: #e8dfc8;
+    --muted: #e8dfc8;
+}
+
+/* Typography */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand-name {
+    font-family: 'Merriweather', Georgia, serif;
+    font-weight: 700;
+}
+
+.brand-name {
+    color: var(--primary);
+    font-size: 1.25rem;
+}
+
+/* Custom Color Classes */
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #6a2540;
+    border-color: #6a2540;
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-accent {
+    background: linear-gradient(135deg, var(--accent), #c49428);
+    border: none;
+    color: var(--foreground);
+    font-weight: 600;
+}
+
+.btn-accent:hover {
+    background: linear-gradient(135deg, #c49428, var(--accent));
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.text-accent {
+    color: var(--accent) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, var(--primary), #6a2540);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34h-2v-4h2v4zm0-8h-2v-4h2v4zm-4 0h-2v-4h2v4zm0 8h-2v-4h2v4zm4-16h-2V10h2v8zm-4 0h-2V10h2v8zM26 10h2v8h-2v-8zm0 8h2v8h-2v-8zm0 8h2v8h-2v-8zm0 8h2v8h-2v-8zm8 0h2v8h-2v-8zm-4 0h2v8h-2v-8zm8-16h2v8h-2v-8zm0-8h2v8h-2v-8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.1;
+}
+
+.hero-icon {
+    background: rgba(255,255,255,0.1);
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+}
+
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+/* Book Cards */
+.book-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid var(--border);
+}
+
+.book-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.15) !important;
+}
+
+.book-card .card-img-top {
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.book-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.book-card .card-title {
+    font-family: 'Merriweather', Georgia, serif;
+    color: var(--foreground);
+}
+
+.book-card .card-title:hover {
+    color: var(--primary);
+}
+
+/* Navigation */
+.navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.95) !important;
+}
+
+.nav-link {
+    color: var(--foreground) !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--primary) !important;
+}
+
+/* Footer */
+footer a:hover {
+    color: var(--primary) !important;
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+}
+
+.bg-secondary {
+    background-color: var(--muted) !important;
+    color: var(--foreground) !important;
+}
+
+/* Feature Icons */
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(125, 46, 76, 0.1);
+    border-radius: 50%;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .display-3 {
+        font-size: 2.5rem;
+    }
+    
+    .display-5 {
+        font-size: 2rem;
+    }
+}
+
+/* Form improvements */
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(125, 46, 76, 0.25);
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}

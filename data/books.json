@@ -1,0 +1,123 @@
+[
+  {
+    "id": "1",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "Set in the summer of 1922, this masterpiece explores themes of decadence, idealism, resistance to change, and excess. Nick Carraway, a Yale graduate and World War I veteran, moves to Long Island and becomes fascinated by his mysterious neighbor Jay Gatsby, a self-made millionaire with a shadowy past and an obsessive love for the beautiful Daisy Buchanan.",
+    "shortDescription": "A timeless tale of love, wealth, and the American Dream in the Jazz Age.",
+    "price": 14.99,
+    "isbn": "978-0-7432-7356-5",
+    "publisher": "Scribner",
+    "pages": 180,
+    "year": 1925,
+    "language": "English",
+    "cover": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400&h=600&fit=crop",
+    "tags": ["Classic", "Fiction", "Romance", "American Literature"],
+    "featured": true,
+    "reviews": [
+      {
+        "reviewer": "Sarah Mitchell",
+        "rating": 5,
+        "comment": "A masterpiece that captures the essence of the American Dream. Fitzgerald's prose is simply magnificent.",
+        "date": "2024-01-15"
+      },
+      {
+        "reviewer": "James Peterson",
+        "rating": 5,
+        "comment": "Required reading for anyone interested in American literature. The symbolism is profound.",
+        "date": "2024-02-03"
+      },
+      {
+        "reviewer": "Emily Chen",
+        "rating": 4,
+        "comment": "Beautiful writing and compelling characters. A timeless classic that still resonates today.",
+        "date": "2024-03-20"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "Set in the Deep South during the 1930s, this Pulitzer Prize-winning novel tells the story of Scout Finch, a young girl growing up in the fictional town of Maycomb, Alabama. Through Scout's eyes, we witness her father Atticus Finch, a principled lawyer, defend a black man falsely accused of a terrible crime. The novel explores themes of racial injustice, moral growth, and the loss of innocence.",
+    "shortDescription": "A powerful exploration of racial injustice and moral courage in the American South.",
+    "price": 16.99,
+    "isbn": "978-0-06-112008-4",
+    "publisher": "Harper Perennial Modern Classics",
+    "pages": 336,
+    "year": 1960,
+    "language": "English",
+    "cover": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop",
+    "tags": ["Classic", "Fiction", "Drama", "Social Issues"],
+    "featured": true,
+    "reviews": []
+  },
+  {
+    "id": "3",
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "In a totalitarian future society, Winston Smith works at the Ministry of Truth in London, chief city of Airstrip One. Big Brother stares out from every poster, and the Thought Police uncover every act of betrayal. Winston secretly rebels against the Party's oppressive regime, starting a forbidden love affair and joining a mysterious underground organization. This dystopian masterpiece explores surveillance, truth, and the power of authoritarian control.",
+    "shortDescription": "A chilling dystopian vision of a totalitarian future where Big Brother watches everything.",
+    "price": 15.99,
+    "isbn": "978-0-452-28423-4",
+    "publisher": "Signet Classic",
+    "pages": 328,
+    "year": 1949,
+    "language": "English",
+    "cover": "https://images.unsplash.com/photo-1495640388908-05fa85288e61?w=400&h=600&fit=crop",
+    "tags": ["Classic", "Science Fiction", "Dystopian", "Political"],
+    "featured": true,
+    "reviews": []
+  },
+  {
+    "id": "4",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "This beloved romance follows the intelligent and spirited Elizabeth Bennet as she navigates the social conventions of Georgian England. When the wealthy and proud Mr. Darcy arrives in her small town, Elizabeth is immediately prejudiced against him. Through a series of misunderstandings and revelations, both must overcome their pride and prejudice to find true love.",
+    "shortDescription": "A witty and romantic tale of manners, marriage, and misconceptions in Regency England.",
+    "price": 12.99,
+    "isbn": "978-0-14-143951-8",
+    "publisher": "Penguin Classics",
+    "pages": 432,
+    "year": 1813,
+    "language": "English",
+    "cover": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop",
+    "tags": ["Classic", "Romance", "Historical Fiction", "British Literature"],
+    "featured": false,
+    "reviews": []
+  },
+  {
+    "id": "5",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "description": "This controversial coming-of-age novel follows Holden Caulfield, a troubled teenager who has just been expelled from his prep school. Over the course of three days in New York City, Holden struggles with growing up, alienation, and the phoniness he sees in the adult world. The novel has become a defining voice of teenage rebellion and angst.",
+    "shortDescription": "An iconic tale of teenage rebellion and the struggle to find authenticity in a phony world.",
+    "price": 13.99,
+    "isbn": "978-0-316-76948-0",
+    "publisher": "Little, Brown and Company",
+    "pages": 277,
+    "year": 1951,
+    "language": "English",
+    "cover": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=400&h=600&fit=crop",
+    "tags": ["Classic", "Fiction", "Coming of Age", "American Literature"],
+    "featured": false,
+    "reviews": []
+  },
+  {
+    "id": "6",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "description": "In this dystopian masterpiece, Huxley imagines a futuristic World State where citizens are engineered through artificial wombs and indoctrinated through childhood conditioning to be compliant consumers. The novel follows Bernard Marx, a psychologist who begins to question this seemingly perfect society. A prophetic exploration of technology, individuality, and the price of stability.",
+    "shortDescription": "A prophetic dystopian vision of a future dominated by technology and social engineering.",
+    "price": 14.99,
+    "isbn": "978-0-06-085052-4",
+    "publisher": "Harper Perennial",
+    "pages": 268,
+    "year": 1932,
+    "language": "English",
+    "cover": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop",
+    "tags": ["Classic", "Science Fiction", "Dystopian", "Philosophy"],
+    "featured": false,
+    "reviews": []
+  }
+]
